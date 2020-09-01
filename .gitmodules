@@ -1,0 +1,12 @@
+[submodule "requirements/node"]
+	path = requirements/node
+	url = https://github.com/nodejs/node.git
+[submodule "requirements/premake-core"]
+	path = requirements/premake-core
+	url = https://github.com/premake/premake-core.git
+[submodule "requirements/husky"]
+	path = requirements/husky
+	url = https://github.com/typicode/husky.git
+[submodule "requirements/goldberg_emulator"]
+	path = requirements/goldberg_emulator
+	url = https://gitlab.com/Mr_Goldberg/goldberg_emulator.git
