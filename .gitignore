@@ -300,9 +300,6 @@ _Pvt_Extensions
 .paket/paket.exe
 paket-files/
 
-# Premake - generate project files
-premake5.exe
-
 # FAKE - F# Make
 .fake/
 

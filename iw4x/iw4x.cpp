@@ -24,7 +24,7 @@ auto main() -> void
 
     if (!win_init_localization())
     {
-        MessageBoxA(0, "Could not load \"loxxcalization.txt\"\n\nPlease make sure Modern Warfare 2 is run from the correct folder.", "Modern Warfare 2 - Fatal Error", MB_ICONERROR);
+        MessageBoxA(0, "Could not load \"localization.txt\"\n\nPlease make sure Modern Warfare 2 is run from the correct folder.", "Modern Warfare 2 - Fatal Error", MB_ICONERROR);
         win_shutdown_localization();
     }
 

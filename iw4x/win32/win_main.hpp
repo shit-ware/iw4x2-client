@@ -3,7 +3,7 @@ namespace iw4x::win32
     namespace win_main
     {
         static HWND dword_64A3AD0 = variable<HWND>(0x64A3AD0);
-        static int  dword_64A3ADC = variable<int>(0x64A3AD0);
+        static int  dword_64A3ADC = variable<int>(0x64A3ADC);
         static char sys_cmdline[1024]{};
     }
 
