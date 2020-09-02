@@ -3,17 +3,29 @@
 [![license](https://img.shields.io/github/license/IW4x/iw4x2-client.svg)](LICENSE)
 [![discord](https://img.shields.io/endpoint?url=https://momo5502.com/iw4x/members-badge.php)](https://discord.gg/sKeVmR3)
 
-IW4x² is a work-in-progress open-source re-implementation of Call of Duty® Modern Warfare® 2.
+IW4x² is a work-in-progress open-source re-implementation of Call of Duty®: Modern Warfare® 2.
 
 Getting started
 =
-We use an easy set of rules, as defined by the conventional commits specification, for creating an explicit commit history; https://www.conventionalcommits.org/en/v1.0.0/. To get started, recursively clone IW4x² repository and either build the individual requirements, OR, download the prebuilt binaries they provide. Visual Studio uses MSBuild to build each project in a solution, and each project contains an MSBuild project file. To generate the project files for Visual Studio, use the Premake5 simple build configuration.
+To get started, recursively clone the IW4x² repository and either build the individual requirements, OR, download the prebuilt binaries they provide. Visual Studio uses MSBuild to build each project in a solution, and each project needs to contain an MSBuild project file. To generate the project files for Visual Studio, use the Premake5 simple build configuration.
 
 ```bash
 git clone --recursive https://github.com/IW4x/iw4x2-client
-cd .\iw4x2-client\requirements\
-.\premake5.exe vs2019
+cd iw4x2-client\requirements && premake5.exe vs2019
 ```
+
+The following targets are to be included within the related game directory for this project:
+- Shared Libraries:
+  - steam_api
+  - steamclient
+- Executables:
+  - iw4x²
+  - iw4mp - 1.0.159
+- Initialization Files:
+  - steam_interfaces
+  - steam_appid
+
+For PRs, we use an easy set of rules, as defined by the conventional commits specification, for creating an explicit commit history. https://www.conventionalcommits.org/en/v1.0.0/
 
 Licensing
 =====
