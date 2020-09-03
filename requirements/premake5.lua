@@ -25,4 +25,4 @@ project "iw4x"
   pchheader "iw4x.hpp"
   forceincludes { "iw4x.hpp" }
 
-  linkoptions "/IGNORE:4254 /DYNAMICBASE:NO /SAFESEH:NO /LARGEADDRESSAWARE /LAST:.main"
+  linkoptions "/NXCOMPAT:NO /IGNORE:4254 /DYNAMICBASE:NO /SAFESEH:NO /LARGEADDRESSAWARE /LAST:.main"

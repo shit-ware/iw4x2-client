@@ -10,3 +10,6 @@
 [submodule "requirements/goldberg_emulator"]
 	path = requirements/goldberg_emulator
 	url = https://gitlab.com/Mr_Goldberg/goldberg_emulator.git
+[submodule "requirements/vcpkg"]
+	path = requirements/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
